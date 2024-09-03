@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms para páginas web</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="nome" class="label">Nome Completo</label>
+        <input type="text" class="campo" nome="nome" id="nome" placeholder="Digite seu nome"><br>
+        <label for="corfavorita" class="label">Cor Favorita</label>
+        <input type="color" class="" nome="corfavorita" id="corfavorita"><br>
+        <label for="date" class="label"> Data</label>
+        <input type="date" class="campo" name="date" id="date"> <br>
+        <label for="time" class="label"> Horário</label>
+        <input type="time" class="campo" name="time" id="time"> <br>
+        <label for="password" class="label">Senha</label>
+        <input type="password" class="campo" name="password" id="password">
+       <ul>
+        <li><input type="radio" name="turno" id="" value="Manhã">Manhã</li>
+        <li><input type="radio" name="turno" id="" value="Tarde">Tarde</li>
+        <li><input type="radio" name="turno" id="" value="Noite">Noite</li>
+       </ul>
+       <ul>
+        <li><input type="checkbox" name="comida[]" id="" value="Pizza">Pizza</li>
+        <li><input type="checkbox" name="comida[]" id="" value="Sushi">Sushi</li>
+        <li><input type="checkbox" name="comida[]" id="" value="Cachorro Quente">Cachorro Quente</li>
+       </ul>
+       <textarea class="label" name="descricao" id="" cols="30" rows="10"></textarea><br>
+       <input class="label" type="submit" value="Cadastrar">
+       <input  type="button" value="Botão Normal">
+       <input type="reset" value="Limpar">
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

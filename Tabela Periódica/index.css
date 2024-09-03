@@ -1,0 +1,186 @@
+body {
+    background-color: bisque;
+}
+.tab-per{
+    width: 1560px;
+    height: 600px;
+}
+.restante {
+    margin-left: 257px;
+    width: 1300px;
+    height: 180px;
+}
+.blocobaixo{
+    border: 1px solid black;
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
+.line1 {
+    width: 1305px;
+    float: left;
+}
+.line2 {
+    width: 1305px;
+    float: inherit;
+}
+.col1A {
+    margin-left: 5px;
+    height: 600px;
+    width: 85px;
+    float: left;
+}
+.col2A {
+    margin-left: 2px;
+    width: 85px;
+    float: left;
+}
+.col3A {
+    float: left;
+    height: 490px;
+    width: 85px;
+    margin-top: -85px;
+}
+.col4A {
+    float: left;
+    height: 490px;
+    width: 85px;
+    margin-top: -85px;
+}
+.col5A {
+    float: left;
+    height: 490px;
+    width: 85px;
+    margin-top: -85px;
+}
+
+.col6A {
+    float: left;
+    height: 490px;
+    width: 85px;
+    margin-top: -85px;
+}
+.col7A {
+    float: left;
+    height: 490px;
+    width: 85px;
+    margin-top: -85px;
+}
+.col8A {
+    float: left;
+    height: 490px;
+    width: 85px;
+    margin-top: -170px;
+}
+.transicao {
+    width: 870px;
+    height: 360px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 90px;
+}
+.bloco  {
+    border: 1px solid black;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.blocoinvi {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.nomeelemento {
+    text-align: center;
+    font-size: 5px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.simbolo {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.A {
+    width: 80px;
+    text-align: center;
+    font-size: small;
+    position: relative;
+    top: -1px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.Z {
+    width: 10px;
+    margin-left: 70px ;
+    font-size: small;
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
+.Z1 {
+    width: 10px;
+    margin-left: 67px ;
+    font-size: small;
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
+.Z2 {
+    width: 10px;
+    margin-left: 60px ;
+    font-size: small;
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
+.corverde {
+    background-color: rgb(3, 161, 3);
+}
+.corlaranja {
+    background-color: orange;
+}
+.coramarelo {
+    background-color: yellow;
+}
+.corvermelhorosado {
+    background-color: rgb(196, 122, 122);
+    float: left;
+}
+.corazulfraco {
+    background-color: darkturquoise;
+}
+.corverdefraco {
+    background-color: greenyellow;
+}
+.corazulmar {
+    background-color: rgb(66, 165, 88)
+}
+.corazul2 {
+    background-color: #a2c7d3;
+}
+.corazulforte {
+    background-color: blue;
+}
+.corazul3 {
+    background-color: aquamarine;
+}
+.corroxo {
+    background-color: violet;
+}
+#divisor {
+    float: left;
+}
