@@ -1,0 +1,113 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+     
+}
+    :root{
+        --azul: #0044af;
+        --vermelho: #ff0122;
+        --amarelo: #ffaf00;
+        --preto: #000000;
+       }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3,33,3%);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+        'header header header' 
+        'main main main'
+        'footer footer footer';
+        gap: 1px;
+    }
+    header {
+        background-color: var(--preto);
+        grid-area: header;
+        height: 350px;
+        background-image: url(img/fundo.jpg);
+        background-position-x: right;
+        background-repeat: no-repeat;
+    }
+    header h1 {
+        text-align: center;
+        color: white;
+        margin-right: 50px;
+        margin-top: 150px;
+        text-shadow: 0 0 10px gainsboro;
+
+    }
+    main {
+        grid-area: main;
+        height: 700px;
+    }
+    main h1 {
+        margin-left: 40px;
+        margin-top: 40px;
+        
+    }
+    main p {
+        width: 95%;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        margin-left: 40px;
+    }
+    main img {
+        height: 200px;
+        width: 94%;
+        display: block;
+        margin-left: 40px;
+    }
+    footer {
+        background-color: gainsboro;
+        display: grid;
+        height: 500px;
+        grid-template-rows: repeat(1,100%);
+        grid-template-columns: repeat(3, 33,3%);
+        grid-area: footer;
+        grid-template-areas: 'leftfoot centerfoot rightfoot';
+    }
+    section h1 {
+        margin: 40px;
+    }
+    section img {
+        width: 75%;
+        height: 200px;
+        margin-left: 40px;
+        margin-top: -15px;
+        border: 1px solid black;
+        border-radius: 5px ;
+    }
+    section p {
+        font-size: 17px;
+        margin-left: 40px;
+        margin-top: 10px;
+        width: 75%;
+    }
+    section div {
+        height: 50px;
+        width: 100px;
+        border-radius: 25px;
+        background-color: cadetblue;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      left: 35%;
+      top: 10%;
+    }
+    section div a{
+        position: relative;
+        top: 13px;
+        color: gainsboro;
+     }
+    .leftfoot {
+        height: 500px;
+        grid-area: leftfoot;
+    }
+    .centerfoot {
+        height: 500px;
+        grid-area: centerfoot;
+    }
+    .rightfoot {
+        height: 500px;
+        grid-area: rightfoot;
+    }
