@@ -12,21 +12,21 @@ form {
 .label {
     margin-left: 25%;
 }
-.campo {
+.field {
     height: 30px;
     width: 100px;
     padding: 10px;
     font-size: 16px;
     border-radius:15px;
 }
-#nome {
+#name {
     height: 30px;
     width: 200px;
     border: 1px solid black;
     margin-left: 10px;
     margin-top: 20px;
 }
-#corfavorita {
+#favoritecolor {
     height: 30px;
     width: 100px;
     border: 1px solid black;
